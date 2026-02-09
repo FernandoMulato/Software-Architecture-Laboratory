@@ -3,10 +3,15 @@
 ## University Information
 
 **University:** Universidad del Cauca
+
 **Faculty:** Facultad de Ingeniería Electrónica y Telecomunicaciones
+
 **Program:** Ingeniería de Sistemas
+
 **Course:** Laboratorio de Ingeniería de Software II
+
 **Practice:** Polymorphism
+
 **Last update:** February 4, 2026
 
 ---
