@@ -90,6 +90,15 @@ class uTestFigure {
   }
 
   @Test
+  void testShouldThrowException_whenTriangleBaseOrHeightIsZero() {
+
+    ClsFigure testMyTriangle = new ClsTriangle(4, 12);
+    assertThrows(IllegalStateException.class, () -> {
+      testMyTriangle.opCalculatePerimeter();
+    });
+  }
+
+  @Test
   void testShouldThrowException_whenTriangleHeightIsNegative() {
     assertThrows(IllegalArgumentException.class, () -> {
       new ClsTriangle(4, -12);
