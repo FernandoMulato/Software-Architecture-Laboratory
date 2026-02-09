@@ -16,7 +16,6 @@ package com.fernandomulato.model;
  * @license MIT License
  */
 public abstract class ClsFigure {
-
   // region Attributes
 
   /**
@@ -31,7 +30,6 @@ public abstract class ClsFigure {
   protected double attY1;
 
   // endregion
-
   // region Operations
 
   /**
